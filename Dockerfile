@@ -11,7 +11,7 @@ RUN apt-get update && \
     apt-get install -y nodejs
 
 # Copy the package.json and package-lock.json files to the container
-COPY package*.json ./
+#COPY package*.json ./
 
 # Install the dependencies
 RUN npm install
